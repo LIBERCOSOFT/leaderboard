@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  margin: 1em;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: x-large;
+}
+
+.container {
+  margin: 1em;
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.scores {
+  width: 15em;
+}
+
+.scores header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.scores header button {
+  background-color: #fff;
+  padding: 0 0.5em;
+  box-shadow: 3px 3px;
+  border: 3px solid #000;
+  cursor: pointer;
+}
+
+.scores .scores__container {
+  border: 3px solid #000;
+  margin-top: 1em;
+}
+
+.scores__container p:nth-child(odd) {
+  background: #fff;
+  font-size: larger;
+}
+
+.scores__container p:nth-child(even) {
+  background: lightgray;
+  font-size: larger;
+}
+
+.form__components form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1em;
+}
+
+form input {
+  padding: 0.2em;
+  margin-bottom: 1em;
+  border: 3px solid #000;
+  color: #000;
+}
+
+form input[type='button'] {
+  background-color: #fff;
+  width: 5em;
+  margin-left: auto;
+  box-shadow: 3px 3px;
+  cursor: pointer;
+}
+
+::placeholder {
+  color: #000;
+  opacity: 1; /* Firefox to style placeholder */
+}
+
+/* Microsoft Edge to style placeholder */
+::-ms-input-placeholder {
+  color: #000;
+}
+
+/* Internet Explorer 10-11 */
+:-ms-input-placeholder {
+  color: #000;
+}
+
+/* Chrome, Safari, Edge, Opera to remove the arrows in the number input field */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox to remove the arrows in the number input field */
+input[type=number] {
+  -moz-appearance: textfield;
+}
