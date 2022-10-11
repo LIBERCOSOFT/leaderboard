@@ -1,0 +1,20 @@
+{
+  "name": "leaderboard",
+  "version": "1.0.0",
+  "description": "The leader-board website displays scores submitted by different players. It also allows you to submit your score, using webpack and ES6 features, notably modules.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LIBERCOSOFT/leaderboard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LIBERCOSOFT/leaderboard/issues"
+  },
+  "homepage": "https://github.com/LIBERCOSOFT/leaderboard#readme"
+}
