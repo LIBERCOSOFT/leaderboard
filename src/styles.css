@@ -68,7 +68,7 @@ form input {
   color: #000;
 }
 
-form input[type='button'] {
+form input[type='submit'] {
   background-color: #fff;
   width: 5em;
   margin-left: auto;
@@ -89,16 +89,4 @@ form input[type='button'] {
 /* Internet Explorer 10-11 */
 :-ms-input-placeholder {
   color: #000;
-}
-
-/* Chrome, Safari, Edge, Opera to remove the arrows in the number input field */
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
-
-/* Firefox to remove the arrows in the number input field */
-input[type=number] {
-  -moz-appearance: textfield;
 }
