@@ -90,15 +90,3 @@ form input[type='submit'] {
 :-ms-input-placeholder {
   color: #000;
 }
-
-/* Chrome, Safari, Edge, Opera to remove the arrows in the number input field */
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
-
-/* Firefox to remove the arrows in the number input field */
-input[type=number] {
-  -moz-appearance: textfield;
-}
