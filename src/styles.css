@@ -68,7 +68,7 @@ form input {
   color: #000;
 }
 
-form input[type='button'] {
+form input[type='submit'] {
   background-color: #fff;
   width: 5em;
   margin-left: auto;
