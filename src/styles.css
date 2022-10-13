@@ -6,6 +6,10 @@
   padding: 0;
 }
 
+body {
+  font-family: 'Courier New', Courier, monospace;
+}
+
 main {
   display: flex;
   flex-direction: column;
@@ -60,6 +64,12 @@ h2 {
 .scores__container p:nth-child(even) {
   background: #d3d3d3;
   font-size: 1.5em;
+}
+
+.scores__container p:hover {
+  background-color: #000;
+  color: #fff;
+  font-size: 2em;
 }
 
 .form__components form {
