@@ -2,6 +2,7 @@
 
 > A leader-board website that displays scores submitted by different players, which also allows you to submit your score.
 > If you like it please give it a Star⭐️, also you can follow:wink:
+> ![project's screenshot](./Screenshot.png)
 
 ## Built With
 
